@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!-- Notes:   -Body needs to be reconfigured to aim for cleanliness.
+              -The tab button properties need to change to get them center locked to the page so resizing won't affect them.
+              -Future Task: curving the tab buttons to meet initial design requirements, research showed using Jquery and/or Javascript.
+-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+          
+          .fontsize {
+                      font-size:100px;
+                    }
+
+          .fontsize5  {
+                      font-size:30px;
+                      }
+
+
+          .tab button {
+                      background-color: inherit;
+                      height:150px;
+                      width:150px;
+                      border-radius: 50%;
+                      margin: 80px;
+                      padding: 14px 20px;
+                      transition: 0.3s;
+                      font-size:70px;
+                      justify-content: center;
+                      align-items: center;
+                      }                 
+
+           .tab button:hover  {
+                      background-color: #ffe8d6;
+                      position: relative;
+                      animation-name: btnbounce;
+                      animation-duration: 0.3s;
+                              }
+
+          </style>
+      </head>
+
+      <body>
+        <center>
+          <div class="animate-down fontsize">
+            <h1>Shreyas Mamdyal</h1>
+          </div>
+            <div class="animate-down fontsize5">
+              <p5>Hope you're having a good day :)</p5>
+            </div>
+        </center>
+            <center>
+              <div class="tab animate-down">
+                <div><button onclick="location.href='https://www.linkedin.com/in/shreyas-m-19508a115/'"><img src="PngItem_1069524.png" width = "60"></button></div>
+                <div><button onclick="location.href='https://github.com/breeeeezy'"><img src="github_logo.png" width = "60"></button></div>
+                <div><button onclick="location.href='myblog.html'">Blog</button></div>
+                <div><button onclick="location.href='projects.html'">Projects</button></div>
+                <div><button onclick="location.href='aboutme.html'">About</button></div>
+                <div><button onclick="location.href='homepage.html'">Home</button></div>
+              </div>
+            </center>
+          </center>
+        </center>
+      </body>
+</html> 
